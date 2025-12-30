@@ -16,3 +16,25 @@ Always commit your chanegs to the main repo after completion for your taks or sa
     git add .
     git commit -m "Message"
     git push
+---
+**Allways update the codebase using pull before starting your work.**
+## For Frontend Dev
+Run this commands always after pulling the codebase.
+
+    npm install
+To install all dependcies.
+## For Backend Dev
+
+Run this commands once.
+
+    pip install uv
+
+Run this commands always after pulling the codebase.
+
+    uv add
+
+If you want to install and ecternal moudule use uv:
+
+    uv add moudule_name
+
+**Also make a list of modules you are using or downloding in Requiremwnts.txt**
