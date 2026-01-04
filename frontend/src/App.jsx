@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from './Pages/Navbar'
-import Text from './Pages/Text'
+import HomeSection from './Pages/HomeSection'
 const App = () => {
   return (
     <div>
        <Navbar />
-        <Text/>
+       <HomeSection/>
+        
+
 </div>
   )
 }
