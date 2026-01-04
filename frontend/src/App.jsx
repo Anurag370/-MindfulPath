@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Navbar from './Pages/Navbar'
 const App = () => {
   return (
-    <div className='text-amber-800 text-5xl'>App</div>
+    <div><Navbar />
+      <main className="p-8">
+        <h1 className="text-2xl font-bold">Home Page</h1>
+      </main>
+</div>
   )
 }
 
