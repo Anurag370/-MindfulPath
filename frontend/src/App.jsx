@@ -1,17 +1,15 @@
-
-import React from 'react'
-import Navbar from './Pages/Navbar'
+import Navbar from './component/Navbar'
 //import HomeSection from './Pages/HomeSection'
-import ChatPage from './ChatPage'
-import HomeSection from './Pages/HomeSection'
+import ChatPage from './pages/ChatPage'
+import HomeSection from './pages/HomeSection'
 const App = () => {
   return (
     <div>
        <Navbar />
-<HomeSection/>
+        <HomeSection/>
         <ChatPage/>
 
-</div>
+    </div>
   )
 }
 
