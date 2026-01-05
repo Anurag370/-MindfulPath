@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./component/Navbar.jsx";
-import ChatPage from "./pages/ChatPage.jsx";
-import HomeSection from "./pages/HomeSection.jsx";
+import ChatPage from "./Pages/ChatPage.jsx";
+import HomeSection from "./Pages/HomeSection.jsx";
 const App = () => {
   return (
     <div>
