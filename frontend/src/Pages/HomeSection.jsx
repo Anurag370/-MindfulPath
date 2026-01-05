@@ -2,7 +2,6 @@ export default function HomeSection() {
   return (
     <section className="bg-gray-50 py-20 px-6">
 
-      {/* HERO TEXT */}
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Find Your <span className="text-emerald-600">Peace of Mind</span>
@@ -13,7 +12,6 @@ export default function HomeSection() {
           and supportive conversations powered by AI.
         </p>
 
-        {/* HERO BUTTONS */}
         <div className="flex justify-center gap-4">
         <a href="/chat"><button className="bg-emerald-600 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-emerald-700 transition">
         Chat with Willow
@@ -25,10 +23,10 @@ export default function HomeSection() {
         </div>
       </div>
 
-      {/* FEATURE CARDS */}
+
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
 
-        {/* Card 1 */}
+
         <div className="bg-white rounded-xl shadow-sm p-6 text-center">
           <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-emerald-100 flex items-center justify-center">
             💬
@@ -43,7 +41,7 @@ export default function HomeSection() {
           </button>
         </div>
 
-        {/* Card 2 */}
+
         <div className="bg-white rounded-xl shadow-sm p-6 text-center">
           <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-100 flex items-center justify-center">
             📈
@@ -58,7 +56,7 @@ export default function HomeSection() {
           </button>
         </div>
 
-        {/* Card 3 */}
+
         <div className="bg-white rounded-xl shadow-sm p-6 text-center">
           <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-yellow-100 flex items-center justify-center">
             📋
