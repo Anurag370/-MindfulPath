@@ -1,0 +1,21 @@
+{
+  "name": "mindfulpath",
+  "version": "1.0.0",
+  "description": "git config --global user.name 'YOUR_NAME'\r     git config --global user.email 'YOUR_EMAIL'\r     git init\r     git pull https://github.com/Anurag370/-MindfulPath.git\r ## Create your own branch\r     git branch branch_name\r     git push -u origin branch_name\r ## Shift to your branch\r     git checkout branch_name\r ## Upload\r Always commit your chanegs to the main repo after completion for your taks or saving your changes made.<br>\r **WARNING**: Check before adding that you are on your branch",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anurag370/-MindfulPath.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Anurag370/-MindfulPath/issues"
+  },
+  "homepage": "https://github.com/Anurag370/-MindfulPath#readme"
+}
