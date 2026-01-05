@@ -15,9 +15,9 @@ export default function HomeSection() {
 
         {/* HERO BUTTONS */}
         <div className="flex justify-center gap-4">
-        <button className="bg-emerald-600 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-emerald-700 transition">
+        <a href="/chat"><button className="bg-emerald-600 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-emerald-700 transition">
         Chat with Willow
-        </button>
+        </button></a>
 
           <button className="border border-gray-300 text-gray-800 px-6 py-3 rounded-md text-sm font-medium hover:bg-gray-100 transition">
             Take Screening
@@ -78,4 +78,3 @@ export default function HomeSection() {
     </section>
   );
 }
-

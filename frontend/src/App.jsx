@@ -1,16 +1,18 @@
-import Navbar from './component/Navbar'
-//import HomeSection from './Pages/HomeSection'
-import ChatPage from './pages/ChatPage'
-import HomeSection from './pages/HomeSection'
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "./component/Navbar";
+import ChatPage from "./pages/ChatPage";
+import HomeSection from "./pages/HomeSection";
 const App = () => {
   return (
     <div>
-       <Navbar />
-        <HomeSection/>
-        <ChatPage/>
-
+      <Navbar />
+      <Routes>
+        <Route path = "/" element={<HomeSection/>}/>
+        <Route path = "/chat" element={<ChatPage/>}/>
+      </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
