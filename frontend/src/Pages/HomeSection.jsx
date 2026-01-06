@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function HomeSection() {
   return (
     <section className="bg-gray-50 py-20 px-6">
@@ -13,9 +14,9 @@ export default function HomeSection() {
         </p>
 
         <div className="flex justify-center gap-4">
-        <a href="/chat"><button className="bg-emerald-600 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-emerald-700 transition">
+        <Link to="/chat"><button className="bg-emerald-600 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-emerald-700 hover:cursor-pointer transition">
         Chat with Willow
-        </button></a>
+        </button></Link>
 
           <button className="border border-gray-300 text-gray-800 px-6 py-3 rounded-md text-sm font-medium hover:bg-gray-100 transition">
             Take Screening
@@ -36,9 +37,9 @@ export default function HomeSection() {
             Talk to Willow, our empathetic AI companion, available 24/7 to listen
             and provide coping strategies.
           </p>
-          <button className="text-sm font-medium text-emerald-600 hover:underline">
+          <Link to="/chat"><button className="text-sm font-medium text-emerald-600 hover:underline">
             Start Chatting →
-          </button>
+          </button></Link>
         </div>
 
 
