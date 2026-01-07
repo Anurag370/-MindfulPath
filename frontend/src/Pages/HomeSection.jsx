@@ -37,7 +37,7 @@ export default function HomeSection() {
             Talk to Willow, our empathetic AI companion, available 24/7 to listen
             and provide coping strategies.
           </p>
-          <Link to="/chat"><button className="text-sm font-medium text-emerald-600 hover:underline">
+          <Link to="/chat"><button className="text-sm font-medium text-emerald-600 hover:underline hover:cursor-pointer">
             Start Chatting →
           </button></Link>
         </div>
