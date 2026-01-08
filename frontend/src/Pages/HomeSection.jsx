@@ -18,9 +18,9 @@ export default function HomeSection() {
         Chat with Willow
         </button></Link>
 
-          <button className="border border-gray-300 text-gray-800 px-6 py-3 rounded-md text-sm font-medium hover:bg-gray-100 transition">
+          <Link to="/screening"><button className="border border-gray-300 text-gray-800 px-6 py-3 rounded-md text-sm font-medium hover:bg-gray-100 transition hover:cursor-pointer">
             Take Screening
-          </button>
+          </button></Link>
         </div>
       </div>
 
@@ -52,9 +52,9 @@ export default function HomeSection() {
             Log your daily emotions and visualize your mental health journey
             over time with intuitive charts.
           </p>
-          <button className="text-sm font-medium text-indigo-600 hover:underline">
+          <Link to="/mood"><button className="text-sm font-medium text-indigo-600 hover:underline">
             Track Mood →
-          </button>
+          </button></Link>
         </div>
 
 
@@ -67,9 +67,9 @@ export default function HomeSection() {
             Take a confidential assessment to understand your mental well-being
             and get personalized tips.
           </p>
-          <button className="text-sm font-medium text-yellow-600 hover:underline">
+          <Link to="/screening"><button className="text-sm font-medium text-yellow-600 hover:underline">
             Start Screening →
-          </button>
+          </button></Link>
         </div>
 
       </div>

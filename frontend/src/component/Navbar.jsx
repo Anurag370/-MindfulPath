@@ -14,12 +14,12 @@ export default function Navbar() {
         <Link to ="/chat" className="hover:text-emerald-600">
           Chat
         </Link>
-        <a href="#mood" className="hover:text-emerald-600">
+        <Link to="/mood" className="hover:text-emerald-600">
           Mood Tracker
-        </a>
-        <a href="#screening" className="hover:text-emerald-600">
+        </Link>
+        <Link to="/screening" className="hover:text-emerald-600">
           Screening
-        </a>
+        </Link>
       </nav>
     </header>
   );
