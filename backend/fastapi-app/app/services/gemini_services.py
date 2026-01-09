@@ -1,6 +1,11 @@
 from google import genai
+from dotenv import load_dotenv
+import os
 
-client = genai.Client(api_key="AIzaSyAbx47XUxhwrE_JNp6ypD6xPQzzJk6oBw0")
+load_dotenv()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+client = genai.Client(api_key=GEMINI_API_KEY)
 
 
 async def generate_reply(message:str):
@@ -53,8 +58,9 @@ async def generate_reply(message:str):
             • This chatbot is a support tool, NOT a replacement for professional mental health care
             • Always prioritize user safety over conversation flow
 
-            End every response with a gentle check-in question like:
+            End with a response with a gentle check-in question like:
             "Would you like to talk more about what's been weighing on you?"
+            Where it is necessary.
 
             USER: {message}
             '''

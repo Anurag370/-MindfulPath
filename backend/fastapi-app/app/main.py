@@ -29,3 +29,6 @@ async def chat(message: MessageInput):
 @app.get("/")
 def health_check():
     return {"status": "ok"}
+@app.get("/chat")
+def health_check():
+    return {"status": "ok"}
