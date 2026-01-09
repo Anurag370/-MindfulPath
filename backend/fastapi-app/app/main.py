@@ -24,11 +24,11 @@ async def chat(message: MessageInput):
         "user": message.message,
         "willow": reply,
     })
-    return {"willow": reply}
+    return {"bot": reply}
 
 @app.get("/")
 def health_check():
     return {"status": "ok"}
 @app.get("/chat")
 def health_check():
-    return {"status": "ok"}
+    return {"reply": "ok"}
