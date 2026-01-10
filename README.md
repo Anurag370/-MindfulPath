@@ -1,3 +1,4 @@
+Presented by Code of Duty, Members- Anurag Hom Roy, Dhurbajyoti Nath, Abhtanil Roy and Roni Gope
 # MindfulPath 🧠
 
 **MindfulPath** is an AI-powered mental health support platform designed to provide **anonymous screening**, **mood tracking**, and **guided self-help conversations**.  
